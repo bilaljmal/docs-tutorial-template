@@ -55,6 +55,43 @@ Upon successfully creating a company, the endpoint returns the following JSON re
 
 3. **EGS Location Management**
 
+### Location Creation Payload
+--------------------------------
+
+The payload for creating a location requires the following JSON structure:
+
+.. code-block:: json
+
+    {
+        "seller_name": "Erp technology",
+        "tax_no": "300111111100003",
+        "organisation": "Jeddah Branch",
+        "serial_number": "1-einvotca.com|2-version 2.0|3-ed22f1d8-e6a2-1118-9b58-d9a8f11e445f",
+        "organisation_unit": "Jeddah Branch",
+        "registered_address": "Street, Jeddah",
+        "business_category": "Informational Technology",
+        "title": "1100",
+        "common_name": "Erp technology"
+    }
+
+### Fields
+
+- **seller_name**: The name of the seller associated with the location.
+- **tax_no**: The tax identification number for the location.
+- **organisation**: The name of the organization associated with the location.
+- **serial_number**: A serialized string containing three components, separated by '|':
+    1. **Provider Name**: The name of the provider (e.g., `einvotca.com`).
+    2. **Version or Number**: The version of the service (e.g., `version 2.0`).
+    3. **UUID**: A unique identifier (e.g., `ed22f1d8-e6a2-1118-9b58-d9a8f11e445f`).
+- **organisation_unit**: The specific unit within the organization.
+- **registered_address**: The registered address of the location.
+- **business_category**: The category of business for the location.
+- **title**: The type of invoice to submit, where:
+    - `1000`: B2B (Business to Business)
+    - `0100`: B2C (Business to Consumer)
+    - `1100`: Both B2B and B2C
+- **common_name**: A common name for the location.
+
 ### Location Creation Endpoint Response
 -----------------------------------------
 
@@ -96,39 +133,3 @@ Upon successfully creating a location, the endpoint returns the following JSON r
 - **registered_address**: The registered address of the location.
 - **business_category**: The category of business for the location.
 
-### Location Creation Payload
---------------------------------
-
-The payload for creating a location requires the following JSON structure:
-
-.. code-block:: json
-
-    {
-        "seller_name": "Erp technology",
-        "tax_no": "300111111100003",
-        "organisation": "Jeddah Branch",
-        "serial_number": "1-einvotca.com|2-version 2.0|3-ed22f1d8-e6a2-1118-9b58-d9a8f11e445f",
-        "organisation_unit": "Jeddah Branch",
-        "registered_address": "Street, Jeddah",
-        "business_category": "Informational Technology",
-        "title": "1100",
-        "common_name": "Erp technology"
-    }
-
-### Fields
-
-- **seller_name**: The name of the seller associated with the location.
-- **tax_no**: The tax identification number for the location.
-- **organisation**: The name of the organization associated with the location.
-- **serial_number**: A serialized string containing three components, separated by '|':
-    1. **Provider Name**: The name of the provider (e.g., `einvotca.com`).
-    2. **Version or Number**: The version of the service (e.g., `version 2.0`).
-    3. **UUID**: A unique identifier (e.g., `ed22f1d8-e6a2-1118-9b58-d9a8f11e445f`).
-- **organisation_unit**: The specific unit within the organization.
-- **registered_address**: The registered address of the location.
-- **business_category**: The category of business for the location.
-- **title**: The type of invoice to submit, where:
-    - `1000`: B2B (Business to Business)
-    - `0100`: B2C (Business to Consumer)
-    - `1100`: Both B2B and B2C
-- **common_name**: A common name for the location.
