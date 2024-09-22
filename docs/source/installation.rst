@@ -2,6 +2,23 @@
 Installation Instructions
 ==========================
 
+Clone the project
+go to the destination folder and run a command
+   .. code-block:: shell
+
+      docker compose up
+
+if you need to run in the background you can use -d parameter
+   .. code-block:: shell
+
+      docker compose up
+
+
+Docker `compose` file have the ``dependencies`` on the ``docker``
+
+How to install Docker
+--------------------
+
 This document provides step-by-step instructions for installing and setting up the project using Docker. Follow the instructions based on your operating system (Windows or Ubuntu).
 
 Windows Installation
