@@ -3,7 +3,7 @@ Technical Overview
 ==========================
 
 This project is a modern web application built using **Python 13** and the **Django 5.1.1** web framework. It leverages Docker Compose to create a reproducible development and production environment, ensuring that the application runs consistently across different platforms.
-
+I also used the apikey authentication to allow user to easily integrate with their ERP and point of sales.
 Key Components
 ===============
 
