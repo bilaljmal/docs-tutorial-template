@@ -8,23 +8,24 @@ Create a `.env` file with the following content to configure the environment var
 
 .. code-block:: ini
 
-   POSTGRES_DB=einvotca_middleware_db
-   POSTGRES_USER=einvotca_middleware_user_db
-   POSTGRES_PASSWORD=8@Pv#0LtzW3&b$zQ
-   SECRET_KEY=Z4!@k5lVx8^Wj$Y2pQn&Zr%+3!DgPz5A*u8Xj%2yRs%7m#hL0d
-   DEBUG=False
+    POSTGRES_DB=einvotca_middleware_db
+    POSTGRES_USER=einvotca_middleware_user_db
+    POSTGRES_PASSWORD=8@Pv0LtzW3&bzQ
+    SECRET_KEY=Z4!@k5lVx8^WjY2pQn&Zr%+3!DgPz5A*u8Xj%2yRs%7mhL0d
+    DEBUG=False
 
-   # Django setting variables
-   DJANGO_DB_HOST=db
-   DJANGO_DB_PORT=5432
-   DJANGO_DB_NAME=einvotca_middleware_db
-   DJANGO_DB_USER=einvotca_middleware_user_db
-   DJANGO_DB_PASSWORD=8@Pv#0LtzW3&b$zQ
+    # Django setting variables
+    DJANGO_DB_HOST=db
+    DJANGO_DB_PORT=5432
+    DJANGO_DB_NAME=einvotca_middleware_db
+    DJANGO_DB_USER=einvotca_middleware_user_db
+    DJANGO_DB_PASSWORD=8@Pv0LtzW3&bzQ
 
-   # Django admin credentials
-   DJANGO_SUPERUSER_USERNAME=new_admin
-   DJANGO_SUPERUSER_EMAIL=new_admin@example.com
-   DJANGO_SUPERUSER_PASSWORD=xB3^7Af!qmJ8
+    # Django admin credentials
+    DJANGO_SUPERUSER_USERNAME=new_admin
+    DJANGO_SUPERUSER_EMAIL=new_admin@example.com
+    DJANGO_SUPERUSER_PASSWORD=xB3^7Af!qmJ8
+
 
 Environment Variables Explanation
 ---------------------------------
