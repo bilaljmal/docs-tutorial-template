@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Einvocta Zatca Middleware'
+copyright = '2024, Einvotca'
+author = 'Saad Muaz'
 
 release = '0.1'
 version = '0.1.0'
