@@ -1,13 +1,12 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to ZATCA Middleware!
+============================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**ZATCA Middleware** is a comprehensive Python-based solution tailored for businesses in Saudi Arabia to comply with the electronic invoicing regulations mandated by the Zakat, Tax and Customs Authority (ZATCA). This middleware handles critical functions such as CSR generation, EGS location creation, CSID generation, compliance verification, reporting, clearance processes, and X.509 certificate management.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+With a *simple* and *intuitive* API, ZATCA Middleware seamlessly integrates with your existing systems, ensuring that all invoicing and related processes meet ZATCA’s stringent requirements.
+
+Explore the :doc:`usage` section for detailed information, including how to :ref:`installation` the project.
+
 
 .. note::
 
