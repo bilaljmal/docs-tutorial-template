@@ -26,9 +26,9 @@ Key Components
 
 - **Docker Compose**: The project is containerized using Docker Compose, ensuring consistent environments across development, testing, and production.
 
-  - **Web Service**: The Django application runs in a container named `nomizo_app`, which is built from a custom Dockerfile located in the `project` directory. It uses volumes for code and static files, making development and deployment straightforward.
+  - **Web Service**: The Django application runs in a container named `zatca_middleware_einvotca_web`, which is built from a custom Dockerfile located in the `project` directory. It uses volumes for code and static files, making development and deployment straightforward.
 
-  - **Database Service**: PostgreSQL runs in a container named `nomizo_db`, with persistent storage handled through Docker volumes.
+  - **Database Service**: PostgreSQL runs in a container named `zatca_middleware_db`, with persistent storage handled through Docker volumes.
 
 4. Additional Libraries
 -----------------------
