@@ -19,5 +19,6 @@ Contents
 .. toctree::
    technical
    installation
+   configuration
    usage
    api
