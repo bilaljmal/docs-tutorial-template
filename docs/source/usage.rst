@@ -15,7 +15,7 @@ API Headers
    - The authentication endpoint is used to obtain a token.
    - This token is required for subsequent API calls to manage company details.
 
-### Authentication Endpoint Response
+Authentication Endpoint Response
 --------------------------------------
 
 Upon successful authentication, the endpoint returns the following JSON response:
@@ -34,7 +34,7 @@ Upon successful authentication, the endpoint returns the following JSON response
 
 2. **Company Management**
 
-### Company Creation Endpoint Response
+Company Creation Endpoint Response
 ----------------------------------------
 
 Upon successfully creating a company, the endpoint returns the following JSON response:
@@ -55,7 +55,7 @@ Upon successfully creating a company, the endpoint returns the following JSON re
 
 3. **EGS Location Management**
 
-### Location Creation Payload
+Location Creation Payload
 --------------------------------
 
 The payload for creating a location requires the following JSON structure:
@@ -92,7 +92,7 @@ The payload for creating a location requires the following JSON structure:
     - `1100`: Both B2B and B2C
 - **common_name**: A common name for the location.
 
-### Location Creation Endpoint Response
+Location Creation Endpoint Response
 -----------------------------------------
 
 Upon successfully creating a location, the endpoint returns the following JSON response:
