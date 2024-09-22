@@ -1,11 +1,17 @@
 =====================================
-ZATCA Middleware API Documentation
+API Documentation
 =====================================
 
 Overview
 ========
 
 The ZATCA Middleware provides a comprehensive set of API endpoints designed to comply with the Zakat, Tax and Customs Authority (ZATCA) regulations in Saudi Arabia. This documentation covers the various endpoints available for managing companies, locations, compliance, reporting, and clearance processes.
+
+Postman API collection
+=====================
+It is also available as a Postman collection for a better understanding of the payload, authentication, and response. You can access it here: `Postman Collection <https://documenter.getpostman.com/view/38384740/2sAXqtbgdG>`_.
+
+
 
 Authentication
 ==============

@@ -1,5 +1,5 @@
 ==========================
-Technical Overview
+Technical Details
 ==========================
 
 This project is a modern web application built using **Python 13** and the **Django 5.1.1** web framework. It leverages Docker Compose to create a reproducible development and production environment, ensuring that the application runs consistently across different platforms.
