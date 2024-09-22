@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Einvocta Zatca Middleware'
+project = 'Zatca Middleware Einvocta'
 copyright = '2024, Einvotca'
 author = 'Saad Muaz'
 
