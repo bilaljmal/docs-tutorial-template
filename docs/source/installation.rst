@@ -11,7 +11,7 @@ go to the destination folder and run a command
 if you need to run in the background you can use -d parameter
    .. code-block:: shell
 
-      docker compose up
+      docker compose up -d
 
 
 Docker `compose` file have the ``dependencies`` on the ``docker``
